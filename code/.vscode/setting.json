@@ -1,0 +1,21 @@
+{
+    // "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "files.associations": {
+        "*.go": "go"
+    },
+    "window.zoomLevel": 3,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "code-runner.runInTerminal": true,
+    "code-runner.preserveFocus": false,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "c": "cd $dirWithoutTrailingSlash && gcc $fileName -o $fileNameWithoutExt -std=c11 -lm && echo '[Running]' && ./$fileNameWithoutExt",
+        "cpp": "cd $dirWithoutTrailingSlash && g++ -Wall $fileName -o $fileNameWithoutExt -std=c++11 -lm && echo '[Running]' && ./$fileNameWithoutExt",
+    },
+}
